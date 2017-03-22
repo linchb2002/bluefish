@@ -29,5 +29,11 @@
     {
       "@odata.id": "/redfish/v1/Chassis/System/{{SLOT_ID}}/StorageEnclosure4"
     }
+    {
+      "@odata.id": "/redfish/v1/Chassis/System/{{SLOT_ID}}/chassis_on"
+    }
+    {
+      "@odata.id": "/redfish/v1/Chassis/System/{{SLOT_ID}}/chassis_off"
+    }
   ]
 }
