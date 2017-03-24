@@ -419,6 +419,10 @@ class ObmcRedfishProviders(object):
             exit(1)
 
     def get_slot_id(self, op):
+        return 0
+
+    '''
+    def get_slot_id(self, op):
         if op in SLOT_ID.keys():
             method_name = SLOT_ID[op]
             obj = self.bus.get_object('org.openbmc.control.Chassis',
@@ -430,6 +434,7 @@ class ObmcRedfishProviders(object):
             return out
         else:
             exit (1)
+    '''
 
 # Not working yet
     def get_host_settings(self):
